@@ -1,13 +1,13 @@
-# tenet-layout-components
+# tenet-styled-layout-components
 
 > A shared list of layout components to be used for any site.
 
-[![NPM](https://img.shields.io/npm/v/tenet-layout-components.svg)](https://www.npmjs.com/package/tenet-layout-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<!-- [![NPM](https://img.shields.io/npm/v/tenet-styled-layout-components.svg)](https://www.npmjs.com/package/tenet-styled-layout-components) -->
 
 ## Install
 
 ```bash
-npm install --save tenet-layout-components
+npm install --save tenetpartners/tenet-styled-layout-components
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save tenet-layout-components
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'tenet-layout-components'
+import MyComponent from 'tenet-styled-layout-components'
 
 class Example extends Component {
   render () {
@@ -28,4 +28,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [ebello](https://github.com/ebello)
+MIT © [TenetPartners](https://github.com/TenetPartners)

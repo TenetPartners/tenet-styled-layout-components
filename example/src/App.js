@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'tenet-layout-components'
+import { ColumnLayout } from 'tenet-layout-components'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ColumnLayout>
+          <p>hello</p>
+          <p>world</p>
+        </ColumnLayout>
       </div>
     )
   }
