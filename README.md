@@ -2,7 +2,7 @@
 
 > A shared list of layout components to be used for any site.
 
-<!-- [![NPM](https://img.shields.io/npm/v/tenet-styled-layout-components.svg)](https://www.npmjs.com/package/tenet-styled-layout-components) -->
+<!-- [![NPM](https://img.shields.io/npm/v/tenet-styled-layout-components.svg)](https://www.npmjs.com/package/tenet-styled-layout-components) [![Greenkeeper badge](https://badges.greenkeeper.io/TenetPartners/tenet-styled-layout-components.svg)](https://greenkeeper.io/) -->
 
 ## Install
 
