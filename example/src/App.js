@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
-
-import { ColumnLayout } from 'tenet-layout-components'
+import React, { Component } from 'react';
+import { ColumnLayout } from 'tenet-styled-layout-components';
 
 export default class App extends Component {
   render () {

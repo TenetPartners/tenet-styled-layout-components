@@ -1,6 +1,6 @@
 {
-  "name": "tenet-layout-components-example",
-  "homepage": "https://ebello.github.io/tenet-layout-components",
+  "name": "tenet-styled-layout-components-example",
+  "homepage": "https://ebello.github.io/tenet-styled-layout-components",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -10,7 +10,7 @@
     "react-dom": "^16.2.0",
     "react-scripts": "^1.1.1",
     "styled-components": "^3.3.3",
-    "tenet-layout-components": "../"
+    "tenet-styled-layout-components": "../"
   },
   "scripts": {
     "start": "react-scripts start",

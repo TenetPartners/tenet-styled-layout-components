@@ -1,1 +1,3 @@
-export { default as ColumnLayout } from './components/ColumnLayout';
+import ColumnLayout from './components/ColumnLayout';
+
+export { ColumnLayout };
