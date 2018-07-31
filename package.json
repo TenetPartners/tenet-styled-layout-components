@@ -20,7 +20,9 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "storybook:build": "build-storybook -c .storybook -o public/docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-components-breakpoint": "^2.1.0"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

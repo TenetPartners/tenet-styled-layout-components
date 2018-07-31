@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel renders correctly for background color 1`] = `
+.c0 {
+  background-color: black;
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Panel renders correctly for background image 1`] = `
+.c0 {
+  display: grid;
+}
+
+.c0 > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 100vw;
+  max-width: none;
+}
+
+.c0 > .content-container {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+@media (min-width:75em) {
+  .c0 > img {
+    margin-left: calc((50vw - 37.5em) * -1);
+    margin-right: calc((50vw - 37.5em) * -1);
+  }
+}
+
+<section
+  backgroundImage={true}
+  className="c0"
+>
+  <img
+    alt="placeholder"
+    src="https://via.placeholder.com/1200x480"
+  />
+  <div
+    className="content-container"
+  >
+    <p>
+      hello
+    </p>
+    <p>
+      world
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Panel renders correctly for color 1`] = `
+.c0 {
+  color: blue;
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Panel renders correctly for max width 1`] = `
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Storyshots ColumnLayout with 2 columns 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > * {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</div>
+`;
+
+exports[`Storyshots ColumnLayout with 3 columns 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > * {
+  -webkit-flex-basis: 33.333333333333336%;
+  -ms-flex-preferred-size: 33.333333333333336%;
+  flex-basis: 33.333333333333336%;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+  <p>
+    3rd column
+  </p>
+</div>
+`;
+
+exports[`Storyshots Panel max width of 1200 1`] = `
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Storyshots Panel max width of 1200, background color black, font color white 1`] = `
+.c0 {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Storyshots Panel max width of 1200, background color blue 1`] = `
+.c0 {
+  background-color: lightblue;
+}
+
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+<section
+  className="c0"
+>
+  <p>
+    hello
+  </p>
+  <p>
+    world
+  </p>
+</section>
+`;
+
+exports[`Storyshots Panel max width of 1200, background image 1`] = `
+.c0 {
+  display: grid;
+}
+
+.c0 > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 100vw;
+  max-width: none;
+}
+
+.c0 > .content-container {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+@media (min-width:75em) {
+  .c0 {
+    padding-left: calc(50vw - 37.5em);
+    padding-right: calc(50vw - 37.5em);
+  }
+}
+
+@media (min-width:75em) {
+  .c0 > img {
+    margin-left: calc((50vw - 37.5em) * -1);
+    margin-right: calc((50vw - 37.5em) * -1);
+  }
+}
+
+<section
+  backgroundImage={true}
+  className="c0"
+>
+  <img
+    alt="placeholder"
+    src="https://via.placeholder.com/1200x480"
+  />
+  <div
+    className="content-container"
+  >
+    <p>
+      hello
+    </p>
+    <p>
+      world
+    </p>
+  </div>
+</section>
+`;
