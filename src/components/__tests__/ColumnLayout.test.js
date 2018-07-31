@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import ColumnLayout from '../index';
+import ColumnLayout from '../ColumnLayout';
 
 describe('ColumnLayout', () => {
   it('renders correctly for 2 columns', () => {

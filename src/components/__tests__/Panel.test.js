@@ -2,7 +2,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
-import Panel from '../index';
+import Panel from '../Panel';
 
 const breakpoints = {
   mobile: 0,
