@@ -84,6 +84,52 @@ exports[`Storyshots ColumnLayout with 2 columns 1`] = `
 </div>
 `;
 
+exports[`Storyshots ColumnLayout with 2 videos 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > * {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+<div
+  className="c0"
+>
+  <video
+    controls=""
+    poster="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.jpg"
+  >
+    <source
+      src="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.mp4"
+      type="video/mp4"
+    />
+    <source
+      src="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.webm"
+      type="video/webm"
+    />
+  </video>
+  <video
+    controls=""
+    poster="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.jpg"
+  >
+    <source
+      src="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.mp4"
+      type="video/mp4"
+    />
+    <source
+      src="//d166gs6ce8o9t3.cloudfront.net/Tenet_Corp.webm"
+      type="video/webm"
+    />
+  </video>
+</div>
+`;
+
 exports[`Storyshots ColumnLayout with 3 columns 1`] = `
 .c0 {
   display: -webkit-box;
