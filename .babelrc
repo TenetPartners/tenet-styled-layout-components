@@ -1,9 +1,17 @@
 {
   "presets": [
-    ["env", {
-      "modules": false
-    }],
-    "stage-0",
-    "react"
-  ]
+      ["@babel/env", { "modules": false }],
+      "@babel/react"
+  ],
+  "plugins": [
+      "babel-plugin-rewire-exports"
+  ],
+  "exclude": [
+      "node_modules/**"
+  ],
+  "env": {
+    "test": {
+      "presets": [["@babel/env"], "@babel/react"]
+    }
+  }
 }
