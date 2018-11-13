@@ -27,7 +27,7 @@
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
-    "styled-components": "^3.0.0"
+    "styled-components": "^4.1.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.8",
@@ -42,9 +42,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.1.4",
-    "enzyme": "^3.5.1",
-    "enzyme-adapter-react-16": "^1.4.0",
-    "enzyme-to-json": "^3.3.4",
     "eslint": "^5.0.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.11.0",
@@ -65,14 +62,9 @@
     "rollup-plugin-peer-deps-external": "^2.0.0",
     "rollup-plugin-postcss": "^1.1.0",
     "rollup-plugin-url": "^2.0.0",
-    "styled-components": "^3.3.3"
+    "styled-components": "^4.1.1"
   },
   "files": [
     "dist"
-  ],
-  "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
-  }
+  ]
 }
