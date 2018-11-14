@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content renders correctly 1`] = `
+<div>
+  &lt;p&gt;hello&lt;/p&gt;
+</div>
+`;
+
+exports[`Content renders correctly given a class 1`] = `
+<div
+  className="asdf"
+>
+  &lt;p&gt;hello&lt;/p&gt;
+</div>
+`;
+
+exports[`HTMLContent renders correctly 1`] = `
+<div
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<p>hello</p>",
+    }
+  }
+/>
+`;
+
+exports[`HTMLContent renders correctly given a class 1`] = `
+<div
+  className="asdf"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<p>hello</p>",
+    }
+  }
+/>
+`;
+
+exports[`HTMLContent renders the tag provided 1`] = `
+<h3
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<p>hello</p>",
+    }
+  }
+/>
+`;
