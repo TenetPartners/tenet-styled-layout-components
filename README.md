@@ -15,7 +15,7 @@ npm install --save tenetpartners/tenet-styled-layout-components
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'tenet-styled-layout-components'
+import { MyComponent } from 'tenet-styled-layout-components'
 
 class Example extends Component {
   render () {
