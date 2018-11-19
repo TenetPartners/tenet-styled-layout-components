@@ -9,7 +9,7 @@ export const HTMLContent = ({ content, className, tag }) => {
   );
 };
 
-const Content = ({ content, className, tag }) => <div className={className}>{content}</div>;
+const Content = ({ content, className }) => <div className={className}>{content}</div>;
 
 Content.propTypes = {
   content: PropTypes.string.isRequired,

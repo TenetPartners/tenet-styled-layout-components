@@ -11,14 +11,14 @@ storiesOf('Content', module)
     const content = text('Content', 'hello world');
     return (
       <Content content={content} />
-    )
+    );
   })
   .add('with css class', () => {
     const content = text('Content', 'hello world');
     const cssclass = text('CSS class', 'test');
     return (
       <Content content={content} className={cssclass} />
-    )
+    );
   });
 
 storiesOf('HTML Content', module)
@@ -30,12 +30,12 @@ storiesOf('HTML Content', module)
     const cssclass = text('CSS class', 'test');
     return (
       <HTMLContent content={content} className={cssclass} />
-    )
+    );
   })
   .add('with different tag', () => {
     const content = text('Content', 'hello world');
     const tag = text('Tag', 'h2');
     return (
-      <HTMLContent content={content} tag={tag}/>
+      <HTMLContent content={content} tag={tag} />
     );
   });
