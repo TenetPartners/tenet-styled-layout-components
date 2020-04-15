@@ -5,10 +5,10 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "^2.1.2",
+    "prop-types": "15.6.2",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-scripts": "2.1.2",
     "styled-components": "5.1.0",
     "tenet-styled-layout-components": "../"
   },
