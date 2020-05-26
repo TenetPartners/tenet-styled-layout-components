@@ -9,7 +9,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "2.1.8",
-    "styled-components": "5.1.0",
+    "styled-components": "5.1.1",
     "tenet-styled-layout-components": "../"
   },
   "scripts": {
