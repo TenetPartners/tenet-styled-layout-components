@@ -3544,10 +3544,10 @@ babel-plugin-react-docgen@^4.0.0:
     react-docgen "^5.0.0"
     recast "^0.14.7"
 
-babel-plugin-rewire-exports@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-rewire-exports/-/babel-plugin-rewire-exports-2.1.0.tgz#b8734f60556cdc248de330e9775ab09aede60fd8"
-  integrity sha512-3tKt8XOrV+divRRXnIqPciLnLmCN74sGwlh6PPNoXt7n5qgaFpXiEcdTDaf0t34Me0G1s2GT6p4T2TUo/1GT2Q==
+babel-plugin-rewire-exports@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-rewire-exports/-/babel-plugin-rewire-exports-2.2.0.tgz#6b67d4b6714a7ff63e40c3b92fdf82c9441e6869"
+  integrity sha512-2AJEO1GhDDXSA/ixSS2PfLfpLPvbm1VpbJOh/TXVDDEYVNJIeuLa74yaYQueCdQYAQhEitkfnFohVZAt1L1R5w==
   dependencies:
     "@babel/template" "7"
 
