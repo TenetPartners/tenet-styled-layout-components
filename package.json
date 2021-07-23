@@ -56,7 +56,7 @@
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-test-renderer": "16.14.0",
-    "regenerator-runtime": "0.13.7",
+    "regenerator-runtime": "0.13.9",
     "rollup": "2.53.3",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
