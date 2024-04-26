@@ -6,8 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "prop-types": "15.7.2",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-scripts": "3.0.0",
     "styled-components": "5.3.3",
     "tenet-styled-layout-components": "../"
