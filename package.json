@@ -31,9 +31,9 @@
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
-    "@babel/plugin-external-helpers": "7.16.0",
-    "@babel/preset-env": "7.16.4",
-    "@babel/preset-react": "7.16.0",
+    "@babel/plugin-external-helpers": "7.29.7",
+    "@babel/preset-env": "7.29.7",
+    "@babel/preset-react": "7.29.7",
     "@storybook/addon-actions": "6.4.15",
     "@storybook/addon-knobs": "6.2.9",
     "@storybook/react": "6.4.15",
